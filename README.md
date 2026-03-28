@@ -45,6 +45,11 @@ This project is ready for Streamlit Cloud deployment. After pushing to GitHub:
 3. Add the same secrets in the Streamlit Cloud dashboard
 4. Verify end-to-end booking, email, and admin flows
 
+## Live Demo
+
+Streamlit App: https://hotel-booking-chatbot-varun.streamlit.app
+GitHub Repo: https://github.com/Varun-2311/hotel-booking-chatbot
+
 ## Project Structure
 
 ```text
