@@ -48,7 +48,6 @@ This project is ready for Streamlit Cloud deployment. After pushing to GitHub:
 ## Live Demo
 
 Streamlit App: https://hotel-booking-chatbot-varun.streamlit.app
-GitHub Repo: https://github.com/Varun-2311/hotel-booking-chatbot
 
 ## Project Structure
 
