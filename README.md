@@ -26,9 +26,14 @@ Edit `.streamlit/secrets.toml` with your real values:
 
 ```toml
 GROQ_API_KEY = "gsk_your_key_here"
+GROQ_MODEL = "openai/gpt-oss-120b"
 EMAIL_SENDER = "your@email.com"
 EMAIL_PASSWORD = "xxxx xxxx xxxx xxxx"
 ```
+
+`GROQ_MODEL` is optional. If omitted, the app defaults to `openai/gpt-oss-120b`.
+For local runs, the setting can instead be supplied as the `GROQ_MODEL` environment variable.
+The configured model must be available for your Groq account tier.
 
 ### 3. Run locally
 
@@ -66,7 +71,9 @@ hotel_booking_assistant/
 |   |-- database.py
 |   `-- models.py
 |-- docs/
-|-- tests/
+|   |-- ARCHITECTURE.md
+|   |-- TEST_PLAN.md
+|   `-- FUTURE_IMPROVEMENTS.md
 |-- .streamlit/
 |   `-- secrets.toml
 `-- requirements.txt
